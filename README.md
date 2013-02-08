@@ -16,12 +16,12 @@
 - git
 - composer
 - [phpaqtools](pear.phpaqtools.org)
-> - PHPUnit
-> - PHPLOC
-> - PHP Copy/Paste Detector
-> - PHP_CodeSniffer
-> - PHP_Depend
-> - PHP_CodeBrowser
+- PHPUnit
+- PHPLOC
+- PHP Copy/Paste Detector
+- PHP_CodeSniffer
+- PHP_Depend
+- PHP_CodeBrowser
 
 ## Setup
 
@@ -32,7 +32,6 @@ localhost/ is probably simplist without having others have to edit /etc/hosts fi
 Set up to look at /build file for the docroot
 url: localhost:8080/gitlist
 
-Edits config.ini file
 mkdir /public  somewhere
 git clone git://github.com/klaussilveira/gitlist.git
 
@@ -40,3 +39,5 @@ git clone git://github.com/klaussilveira/gitlist.git
 
 How do I get this to build once everything is complete?
 Uses local files and writes to /build folder
+Extract tar.gz to /var/www/gitlist
+Edit config.ini file
