@@ -317,3 +317,28 @@ bash "composer" do
     sudo mv composer.phar /usr/local/bin/composer
   EOH
 end
+
+
+   # https://github.com/awildeep/liesIToldMyKids/tree/master/custom_cookbooks
+   <name>/recipes/default.rb
+     chef.add_recipe "apache2_vhosts"
+     chef.add_recipe "php_modules"
+
+
+     #     pear config-set auto_discover 1
+#     pear install pear.phpqatools.org/phpqatools
+
+#    php_pear_channel "pear.phpaqtools.org" do
+#      action :discover
+#    end
+#
+#    php_pear "phpaqtools" do
+#      action :install
+#    end
+
+
+#    chef.json.merge!({
+#      :mysql => {
+#        :server_root_password => "root"
+#      }
+#    })
