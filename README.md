@@ -34,3 +34,6 @@ Run `vagrant up`
 The recipe will clone the latest master from klaussilveria, build it, and set up gitlist.
 You can access the built Gitlist at http://localhost:8080.
 You will be looking at the latest clone of Gitlist from which you build Gitlist.
+
+## Local Build
+You can build from your clone of Gitlist by un/commenting out a section in the `cookbooks/vagrant_main/recipes/default.rb` [file](/blob/master/cookbooks/vagrant_main/recipes/default.rb)
