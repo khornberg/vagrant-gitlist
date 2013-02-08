@@ -7,37 +7,30 @@
 
 - [Precise32](http://files.vagrantup.com/precise32.box)
 - ant
+    - java
+    - ark
 - apt
 - apache2
-- apache2::mod_php5
-- apache2::mod_deflate
-- apache2::mod_rewrite
+    - apache2::mod_php5
+    - apache2::mod_deflate
+    - apache2::mod_rewrite
 - php
 - git
 - composer
-- [phpaqtools](pear.phpaqtools.org)
+- PHP_Depend
 - PHPUnit
 - PHPLOC
 - PHP Copy/Paste Detector
-- PHP_CodeSniffer
-- PHP_Depend
-- PHP_CodeBrowser
+- PHP_Mess Detector
 
 ## Setup
+Requires vagrant to be installed and uses the box name precise32. If you have another base box to use you can change that in the Vagrantfile.
 
-Vhosts setup?
-What do I want to do?
-localhost/ is probably simplist without having others have to edit /etc/hosts file
-
-Set up to look at /build file for the docroot
-url: localhost:8080/gitlist
-
-mkdir /public  somewhere
-git clone git://github.com/klaussilveira/gitlist.git
+In a folder say gitlist-build run `vagrant init`
+Clone this repository by running `git clone git://github.com/khornberg/vagrant-gitlist.git`
+Run `vagrant up`
 
 ## Build
-
-How do I get this to build once everything is complete?
-Uses local files and writes to /build folder
-Extract tar.gz to /var/www/gitlist
-Edit config.ini file
+The recipe will clone the latest master from klaussilveria, build it, and set up gitlist.
+You can access the built Gitlist at http://localhost:8080.
+You will be looking at the latest clone of Gitlist from which you build Gitlist.
