@@ -32,7 +32,7 @@ Run `cp vagrant-gitlist/* .`
 Run `vagrant up`
 
 ## Build
-The recipe will clone the latest [master from klaussilveria](http://github.com/klaussilveria/gitlist), build it, and set up GitList.
+The recipe will clone the latest [master from klaussilveria](https://github.com/klaussilveira/gitlist), build it, and set up GitList.
 You can access the built GitList at http://localhost:8080.
 You will be looking at the latest clone of GitList from which you build GitList.
 
