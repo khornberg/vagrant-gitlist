@@ -28,12 +28,13 @@ Requires vagrant to be installed and uses the box name precise32. If you have an
 
 In a folder say gitlist-build run `vagrant init`
 Clone this repository by running `git clone git://github.com/khornberg/vagrant-gitlist.git`
+Run `cp vagrant-gitlist/* .`
 Run `vagrant up`
 
 ## Build
-The recipe will clone the latest master from klaussilveria, build it, and set up gitlist.
-You can access the built Gitlist at http://localhost:8080.
-You will be looking at the latest clone of Gitlist from which you build Gitlist.
+The recipe will clone the latest [master from klaussilveria](http://github.com/klaussilveria/gitlist), build it, and set up gitlist.
+You can access the built GitList at http://localhost:8080.
+You will be looking at the latest clone of GitList from which you build GitList.
 
 ## Local Build
-You can build from your clone of Gitlist by un/commenting out a section in the `cookbooks/vagrant_main/recipes/default.rb` [file](/blob/master/cookbooks/vagrant_main/recipes/default.rb)
+You can build from your clone of GitList by un/commenting out a section in the `cookbooks/vagrant_main/recipes/default.rb` [file](/cookbooks/vagrant_main/recipes/default.rb)
