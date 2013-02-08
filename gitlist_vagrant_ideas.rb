@@ -3,7 +3,6 @@
 # knife cookbook site download <cookbook>
 # knife cookbook site search <term>
 
-
 # http://community.opscode.com/cookbooks/php
 # 	http://docs.opscode.com/lwrp_php.html
 # 	http://phpqatools.org/
@@ -12,15 +11,12 @@
 # pear install pear.phpqatools.org/phpqatools
 
 # http://community.opscode.com/cookbooks/composer
-
 # http://community.opscode.com/cookbooks/ant
-
 # http://community.opscode.com/cookbooks/git
-
-
 
 # http://files.vagrantup.com/precise32.box
 
+# http://jyates.github.com/2011/11/26/vagrant-chef-tips.html
 
 # egrajeda
 # Simplist to get a LAMP stack started
