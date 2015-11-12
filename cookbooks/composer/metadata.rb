@@ -1,3 +1,4 @@
+name             "composer"
 maintainer       "Escape Studios"
 maintainer_email "dev@escapestudios.com"
 license          "MIT"
